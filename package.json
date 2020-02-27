@@ -1,0 +1,25 @@
+{
+  "name": "onfiar.com",
+  "homepage": "https://www.onfiar.com",
+  "version": "1.0.0",
+  "description": "onfiar.com",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "serve": "^11.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "serve public",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcorke/onfiar.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcorke/onfiar.com/issues"
+  }
+}
